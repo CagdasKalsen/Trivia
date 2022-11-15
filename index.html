@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header" id="trivia">Trivia Game</h1>
+    </header>
+
+    <div class="containerp">
+        <form action="index.html" id="username">
+            <label for="firstname">Your Name:</label>
+            <input class="containerp" id="nameInput" type="text"></input>
+            </br>
+            </br><input type="submit" name="Enter" id="entername" value="Enter"></br>
+            <div class="containerp" id="name">
+                <h4 class="containerp" id="displayName"></h4>
+            </div>
+
+        </form>
+    </div>
+
+    </br>
+    <h3 class="score" id="score">Score : <span class="score" id="scoretotal">0</span></h3>
+    <div class="startTime">
+
+        <p class="startTime" id="timesecond">0 : <span class="startTime" id="timeminute">0</span></p>
+    </div>
+
+    <main class="qa">
+        <form class='qa' id="firstquestion" action="index.html">
+            <h4 class="qa" id="q1">2+3=?</h4>
+            <input type="radio" id="1" value="1">
+            <label for="1">1</label></br>
+            <input type="radio" id="2" value="2">
+            <label for="2">2</label></br>
+            <input type="radio" id="3" value="3">
+            <label for="3">3</label></br>
+            <input type="radio" id="5" value="5">
+            <label for="5">5</label></br>
+            </br>
+
+        </form>
+
+        <form class='qa' id='secondquestion' action="index.html">
+            <h4 class="qa" id="q2">4*5=?</h4>
+            <input type="radio" id="4" value='4'>
+            <label for="4">4</label></br>
+            <input type="radio" id="5" value='5'>
+            <label for="5">5</label></br>
+            <input type="radio" id="20" value="20">
+            <label for="20">20</label></br>
+            <input type="radio" id="16" value="16">
+            <label for="16">16</label></br>
+            </br>
+            <input type="submit" value="Next">
+        </form>
+
+    </main>
+
+
+
+
+</body>
+
+</html>
