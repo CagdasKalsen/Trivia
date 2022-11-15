@@ -1,0 +1,19 @@
+/* .score,
+.qa {
+    display: none;
+} */
+
+
+/* #displayName {
+    background-color: aquamarine;
+} */
+
+#h3,
+#score,
+#timesecond,
+#timeminute,
+#firstquestion,
+#secondquestion,
+#next {
+    display: none;
+}

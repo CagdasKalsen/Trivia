@@ -16,16 +16,15 @@
     </header>
 
     <div class="containerp">
-        <form action="index.html" id="username">
-            <label for="firstname">Your Name:</label>
-            <input class="containerp" id="nameInput" type="text"></input>
-            </br>
-            </br><input type="submit" name="Enter" id="entername" value="Enter"></br>
-            <div class="containerp" id="name">
-                <h4 class="containerp" id="displayName"></h4>
-            </div>
 
-        </form>
+        <label id="firstname">Your Name:</label>
+        <input class="containerp" id="nameInput" type="text" placeholder="Enter your name ">
+        </br>
+        </br>
+        <input type="button" id="enter" value="Enter">
+        <div class="containerp" id="name">
+            <h3 class="containerp" id="h3">Hello <span id="displayName"></span> . Answer the question correctly to pass the exam.. Good luck!!!</h3>
+        </div>
     </div>
 
     </br>
@@ -38,13 +37,13 @@
     <main class="qa">
         <form class='qa' id="firstquestion" action="index.html">
             <h4 class="qa" id="q1">2+3=?</h4>
-            <input type="radio" id="1" value="1">
+            <input type="radio" id="1" value="1" name="question4">
             <label for="1">1</label></br>
-            <input type="radio" id="2" value="2">
+            <input type="radio" id="2" value="2" name="question4">
             <label for="2">2</label></br>
-            <input type="radio" id="3" value="3">
+            <input type="radio" id="3" value="3" name="question4">
             <label for="3">3</label></br>
-            <input type="radio" id="5" value="5">
+            <input type="radio" id="5" value="5" name="question4">
             <label for="5">5</label></br>
             </br>
 
@@ -61,9 +60,8 @@
             <input type="radio" id="16" value="16">
             <label for="16">16</label></br>
             </br>
-            <input type="submit" value="Next">
         </form>
-
+        <input type="submit" value="Next" id="next">
     </main>
 
 
