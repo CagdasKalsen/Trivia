@@ -1,3 +1,5 @@
+//Variables
+
 const nameinput = document.getElementById('nameInput')
 const enterbttn = document.getElementById('enter')
 const displayname = document.getElementById("displayName")
@@ -5,13 +7,7 @@ const next = document.getElementById('next')
 
 const totalscore = document.getElementById('scoretotal')
 
-
-
-
-
-
-
-
+//functions 
 
 
 function funenter() {
@@ -38,15 +34,3 @@ function funnext2() {
 
 
 enterbttn.addEventListener('click', funenter)
-
-
-var checkq1 = next.addEventListener('click', funnext1)
-const correctanswer = document.getElementById('q1five').value
-console.log(correctanswer)
-
-if (checkq1 == '5') {
-    console.log('correct')
-}
-
-
-next.addEventListener('click', funnext2)
