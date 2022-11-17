@@ -13,6 +13,8 @@
 #time,
 #firstquestion,
 #secondquestion,
-#next {
+#thirdsecondquestion,
+#next,
+#result {
     display: none;
 }

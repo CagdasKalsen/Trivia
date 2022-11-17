@@ -10,16 +10,16 @@
     <script src="./app.js" defer></script>
 </head>
 
-<body>
+<body id="body">
     <header class="header">
         <h1 class="header" id="trivia">Trivia Game</h1>
     </header>
     <div class="containerp" id="firstdiv">
         <label id="firstname">Your Name:</label>
-        <input class="containerp" id="nameInput" type="text" placeholder="Enter your name ">
+        <input class="containerp" id="nameInput" type="text" placeholder="Enter your name" required>
         </br>
         </br>
-        <input type="button" id="enter" value="Enter" required>
+        <input required type="button" id="enter" value="Enter">
     </div>
     <div class="containerp" id="name">
         <h3 class="containerp" id="h3">Hello <span id="displayName"></span> . Answer the question correctly to pass the exam.. Good luck!!!</h3>
@@ -54,7 +54,10 @@
             <label for="16">16</label></br>
             </br>
         </form>
-        <input type="submit" value="Next" id="next">
+
+        <input class='next2' type="submit" value="Next" id="next">
+        <input class='next2' type="submit" value="Results" id="result">
+
     </main>
 </body>
 
