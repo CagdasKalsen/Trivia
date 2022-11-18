@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trivia Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <script src="./app.js" defer></script>
 </head>
@@ -15,19 +18,23 @@
         <h1 class="header" id="trivia">Trivia Game</h1>
     </header>
     <div class="containerp" id="firstdiv">
-        <label id="firstname">Your Name:</label>
-        <input class="containerp" id="nameInput" type="text" placeholder="Enter your name" required>
+        <label id="firstname">Your Name</label></br>
+        <input class="containerp" id="nameInput" type="text" placeholder="Enter your name">
         </br>
         </br>
-        <input required type="button" id="enter" value="Enter">
+
+        <input type="button" id="enter" value="Enter">
     </div>
     <div class="containerp" id="name">
-        <h3 class="containerp" id="h3">Hello <span id="displayName"></span> . Answer the question correctly to pass the exam.. Good luck!!!</h3>
+        <h3 class="containerp" id="h3">Hello <span id="displayName"></span> </br>
+            </br>Score 50 or above in 60 seconds to pass .. Good luck!!!</h3>
     </div>
     </br>
-    <h3 class="score" id="score">Score : <span class="score" id="scoretotal">0</span></h3>
-    <div class="startTime" id="time">
-        <p class="startTime" id="timeminute">0 : <span class="startTime" id="timesecond">00</span></p>
+    <div id="scoreshow">
+        <h3 class="score" id="score">Score : <span class="score" id="scoretotal">0</span></h3>
+    </div>
+    <div class="startTime">
+        <p class="startTime" id="'timer"> <span id="sixty">60</span></p>
     </div>
     <main class="qa">
         <form class='qa' id="firstquestion" action="index.html">
@@ -45,16 +52,15 @@
         <form class='qa' id='secondquestion' action="index.html">
             <h4 class="qa" id="q2">4*5=?</h4>
             <input type="radio" id="4" value='4' name="question2">
-            <label for="4">4</label></br>
+            <label for="4">14</label></br>
             <input type="radio" id="5" value='5' name="question2">
-            <label for="5">5</label></br>
+            <label for="5">25</label></br>
             <input type="radio" id="20" value="20" name="question2">
             <label for="20">20</label></br>
             <input type="radio" id="16" value="16" name="question2">
             <label for="16">16</label></br>
             </br>
         </form>
-
         <input class='next2' type="submit" value="Next" id="next">
         <input class='next2' type="submit" value="Results" id="result">
 
