@@ -10,9 +10,9 @@
     - If the user`s answer correct , user gets 20 points 
     - If the user`s answer incorrect , user gets 0 points 
 - Calculate the score after each answer 
-- If user`s score is >= 50 
+- If the user`s score is >= 50 
     - Display " You passed!!" 
-- If user`s score is < 50 
+- If the user`s score is < 50 
     - Display " You failed!!!"
 - Game ends !!!
 
