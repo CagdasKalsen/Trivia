@@ -11,7 +11,7 @@ let position = 0
 let position2 = 1
 let clickedItem = ''
 let clickedItem2 = ''
-let time = 60
+let time = 10
     /* Created settimer() countdown */
 let interval = null
 const settimer = function() {
