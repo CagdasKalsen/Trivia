@@ -7,8 +7,8 @@
 - Countdown timer starts 
 - The user select an answer 
 - Compare the user`s answer and correct answer 
-    - If the user`s answer correct , user gets 50 points 
-    - If the user`s answer incorrect , user gets 0 points 
+    - If the user`s answer  is correct , user gets 50 points 
+    - If the user`s answer is  incorrect , user gets 0 points 
 - Calculate the score after each answer 
 - If the user`s score is >= 50 
     - Display " You passed!!" 
